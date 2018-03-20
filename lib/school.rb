@@ -2,7 +2,7 @@
 class School
   attr_accesor :roster,
 
-  def initialize
+  def initialize(school)
     @roster = []
   end
 end
